@@ -1,1 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body{
+    background-color: #eee;
+}
+.newspaper-container{
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px 3px #ddd;;
+    padding: 1em;
+    margin: auto;
+    background-color: white;
+}
+/* Date of Article */
+.date{
+    font-size: 11px;
+}
+/* Hacker Times */
+h1 { 
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 40px;
+}
+/* Nav Bar */
+ul {
+    border-top: solid #eee;
+    border-bottom: solid #eee;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+li {
+    display:inline;
+    list-style-type: none;
+    padding-right: .5em;
+    font-family: Source Sans Pro;
+    color:#eee;
+}
+a{
+    color: #777;
+    text-decoration: none;
+}
+/* Article title */
+h2 {
+    font-family: Roboto Slab;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+/* Author */
+h5 {
+    color: #dd3232;
+    font-family: Roboto Slab;
+    font-size: 13px;
+    margin-top: 5px;
+}
+/* Laptop Photo */
+.laptop {
+    width: 96%;
+    justify-content: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/* First Paragraph */
+.cupcake {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    text-align: justify;
+    margin: 1em;
+}
+.more-articles {
+    border-top: solid #eee;
+}
+h4 {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tabs {
+    display:inline-block;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    width: 40%;
+    margin-right: 60px;
+}
+.how-much {
+    display:inline-block;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    width: 40%;
+    margin-left: 10px;
+}
